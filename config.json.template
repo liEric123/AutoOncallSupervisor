@@ -1,0 +1,7 @@
+{
+    "buildkite_token": "YOUR_BUILDKITE_TOKEN_HERE",
+    "org_slug": "your-organization-slug",
+    "pipeline_slug": "your-pipeline-slug",
+    "target_branch": "prod",
+    "lark_webhook_url": "https://open.larksuite.com/open-apis/bot/v2/hook/YOUR_WEBHOOK_TOKEN"
+} 

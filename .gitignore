@@ -12,4 +12,3 @@ htmlcov/
 env/
 venv/
 .cursorrules
-.run_tests.py

@@ -9,15 +9,10 @@ Automatically detects and retries Buildkite builds that failed due to agent disc
 pip install -r requirements.txt
 ```
 
-2. Create `config.json`:
-```json
-{
-    "buildkite_token": "your_buildkite_api_token",
-    "org_slug": "your_organization_slug", 
-    "pipeline_slug": "your_pipeline_slug",
-    "target_branch": "prod",
-    "lark_webhook_url": "your_lark_webhook_url"
-}
+2. Copy and configure:
+```bash
+cp config.json.template config.json
+# Edit config.json with your actual values
 ```
 
 3. Run:
